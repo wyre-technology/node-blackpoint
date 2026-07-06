@@ -107,3 +107,5 @@ try {
 ## License
 
 Apache-2.0 — see [LICENSE](./LICENSE).
+
+<!-- source recovered + published via fleet release pipeline -->
