@@ -1,0 +1,73 @@
+{
+  "name": "@wyre-technology/node-blackpoint",
+  "version": "1.0.0",
+  "description": "Node.js/TypeScript client library for the Blackpoint Cyber CompassOne API",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.8",
+    "@types/node": "^26.0.1",
+    "@vitest/coverage-v8": "^4.1.9",
+    "msw": "^2.14.6",
+    "semantic-release": "^25.0.5",
+    "tsup": "^8.0.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/wyre-technology/node-blackpoint#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyre-technology/node-blackpoint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wyre-technology/node-blackpoint/issues"
+  },
+  "keywords": [
+    "blackpoint",
+    "compassone",
+    "security",
+    "mdr",
+    "api",
+    "typescript",
+    "sdk"
+  ],
+  "author": "WYRE Technology"
+}
