@@ -1,3 +1,16 @@
+# 1.0.0 (2026-07-06)
+
+
+### Bug Fixes
+
+* **ci:** bump release job to Node 22 (semantic-release v25 requires >=22) ([cadd4dc](https://github.com/wyre-technology/node-blackpoint/commit/cadd4dcb35d024c82eee55c0592433070b2d43f9))
+* **ci:** pass tests with no test files (vitest --passWithNoTests) ([f9811d0](https://github.com/wyre-technology/node-blackpoint/commit/f9811d0d4d63cf50a33248fb9f1d0f6aca269588))
+
+
+### Features
+
+* recover node-blackpoint SDK source from published tarball sourcemaps ([10004fa](https://github.com/wyre-technology/node-blackpoint/commit/10004fac941a43c073c2ac43003f2181ecb0ac37))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
