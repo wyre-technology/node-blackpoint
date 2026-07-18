@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wyre-technology/node-blackpoint/compare/v1.0.0...v1.0.1) (2026-07-18)
+
+
+### Bug Fixes
+
+* **publish:** force republish — v1.0.0 tarball is corrupted on GH Packages ([#1](https://github.com/wyre-technology/node-blackpoint/issues/1)) ([242f0d3](https://github.com/wyre-technology/node-blackpoint/commit/242f0d33668f2514f45413b0c2d2dd7cc6e482f7))
+
 # 1.0.0 (2026-07-06)
 
 
